@@ -5,11 +5,10 @@ import {lightTheme} from '../styles/theme';
 
 function MyApp({Component, pageProps}: AppProps) {
   return (
-    <GlobalStyle>
-      <ThemeProvider theme={lightTheme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </GlobalStyle>
+    <ThemeProvider theme={lightTheme}>
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </ThemeProvider>
   );
 }
 
