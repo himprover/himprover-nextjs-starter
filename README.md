@@ -51,6 +51,7 @@ npm run deploy
 ```
 
 ### Auto Jira ticket Commit
+
 ![image](https://user-images.githubusercontent.com/65651835/171074512-e94d2a5a-ab08-4f6f-a2d9-663c0949ab4d.png)
 
 `PROJECT_ID = PROJECT_ID`
@@ -74,10 +75,9 @@ commit `-m` 옵션 사용 시 작동하지 않을 수 있습니다.
     │  └─[Name]
     │     └─index.tsx
     │     └─index.test.tsx
-    ├─containers
-    │  └─[Name]
-    │     └─index.tsx
-    ├─hooks
+    ├─core
+    │  └─utils
+    │     └─index.ts
     ├─pages
     │  └─index.tsx
     └─styles
