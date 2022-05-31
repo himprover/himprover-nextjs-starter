@@ -52,6 +52,7 @@ npm run deploy
 
 ### Auto Jira ticket Commit
 ![image](https://user-images.githubusercontent.com/65651835/171074512-e94d2a5a-ab08-4f6f-a2d9-663c0949ab4d.png)
+
 `PROJECT_ID = PROJECT_ID`
 
 자동으로 커밋에 Jira ID를 삽입해줍니다.
