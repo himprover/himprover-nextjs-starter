@@ -1,8 +1,8 @@
-import {ExampleConatiners} from 'containers/Name';
+import {ExampleComponent} from 'components/Name';
 import type {NextPage} from 'next';
 
 const Home: NextPage = () => {
-  return <ExampleConatiners />;
+  return <ExampleComponent />;
 };
 
 export default Home;
